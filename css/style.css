@@ -1,0 +1,48 @@
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/work-sans-v24-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/work-sans-v24-latin-600.woff2') format('woff2'); 
+}
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-mono-v17-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/space-mono-v17-latin-700.woff2') format('woff2'); 
+}
+
+.containers {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+body {
+    background-color: #2B2B2B;
+    font-family: "Work Sans", sans-serif;
+}
+
+strong, span {
+    font-family: "Space Mono", monospace;
+}
