@@ -46,3 +46,10 @@ body {
 strong, span {
     font-family: "Space Mono", monospace;
 }
+
+.mushroom {
+  background-image: url(../images/svg/mushroom-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
